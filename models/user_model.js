@@ -7,7 +7,7 @@ const userSchema = mongoose.Schema({
         minLength:3,
         trim:true
     },
-    avatar:String,
+    avatar:String,//image
 })
 
 export default mongoose.model('user', userSchema);

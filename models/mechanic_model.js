@@ -8,9 +8,9 @@ const mechanicSchema=mongoose.Schema({
         trim:true
     },
     cnic:Number,
-    cnicFront:String,
-    cnicBack:String,
-    avatar:String,
+    cnicFront:String,//image
+    cnicBack:String,//image
+    avatar:String,//image
     email:String,
 })
 
